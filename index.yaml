@@ -3,7 +3,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-08T18:34:03.624298333Z"
+    created: "2022-03-08T18:44:12.818107915Z"
     description: A Helm chart for Kubernetes
     digest: d34e43ca990049b0a97841bc333aa4fd1afa6cf9b51b6c46b2546dfdccfb8f16
     name: helm-chart-test
@@ -14,7 +14,7 @@ entries:
   tastia:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2022-03-08T18:34:03.626265583Z"
+    created: "2022-03-08T18:44:12.821209242Z"
     description: A Helm chart for the  tastia web
     digest: f17e3e014d7877a58ba41a886f326f01fd9cbb5665c4fc7abfed76a2e1276fef
     home: https://github.com/rasturies/tastia
@@ -30,4 +30,4 @@ entries:
     urls:
     - https://rasturies.github.io/helm-repo/tastia-0.0.1.tgz
     version: 0.0.1
-generated: "2022-03-08T18:34:03.621605165Z"
+generated: "2022-03-08T18:44:12.814197823Z"
