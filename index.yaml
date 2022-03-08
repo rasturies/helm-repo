@@ -1,0 +1,33 @@
+apiVersion: v1
+entries:
+  helm-chart-test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-08T21:52:15.005626485Z"
+    description: A Helm chart for Kubernetes
+    digest: 43a81a50ab05a1346c4bfcc5966dc8beb9944ac8303b90a844c8f0e62fcae52a
+    name: helm-chart-test
+    type: application
+    urls:
+    - https://github.com/rasturies/helm-repo/releases/download/helm-chart-test-0.1.0/helm-chart-test-0.1.0.tgz
+    version: 0.1.0
+  tastia:
+  - apiVersion: v2
+    appVersion: v0.1
+    created: "2022-03-08T21:52:15.208443791Z"
+    description: A Helm chart for the tastia service
+    digest: 6c90e3d02856a180baba9bcc9e3e228043e98891797a77166d38b4089fa21063
+    home: https://github.com/rasturies/tastia
+    icon: https://tastia.me/assets/favicon_transparante.png
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: rasturies@users.noreply.github.com
+      name: rasturies
+    name: tastia
+    sources:
+    - https://github.com/sngular/tastia
+    type: application
+    urls:
+    - https://github.com/rasturies/helm-repo/releases/download/tastia-0.1.1/tastia-0.1.1.tgz
+    version: 0.1.1
+generated: "2022-03-08T21:52:15.208465204Z"
