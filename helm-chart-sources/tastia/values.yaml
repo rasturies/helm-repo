@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: docker pull ghcr.io/rasturies/tastia
   pullPolicy: IfNotPresent
-  tag: "v0.1"
+  tag: ""
 
 imagePullSecrets: []
 nameOverride: ""
