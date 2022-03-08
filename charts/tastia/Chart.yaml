@@ -1,0 +1,14 @@
+apiVersion: v2
+name: tastia
+description: A Helm chart for the  tastia web
+type: application
+version: 0.0.1
+appVersion: "v0.0.1"
+icon: https://tastia.me/assets/favicon_transparante.png
+home: https://github.com/rasturies/tastia
+sources:
+- https://github.com/rasturies/tastia
+kubeVersion: ">=1.19.0-0"
+maintainers:
+- email: rasturies@users.noreply.github.com
+  name: rasturies
