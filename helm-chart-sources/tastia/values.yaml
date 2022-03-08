@@ -51,7 +51,7 @@ ingress:
       - path: /
         backend:
           serviceName: tastia.local
-          servicePort: 80
+          servicePort: 8081
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
