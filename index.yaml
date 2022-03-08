@@ -3,9 +3,9 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-08T18:44:12.818107915Z"
+    created: "2022-03-08T18:51:41.342002837Z"
     description: A Helm chart for Kubernetes
-    digest: d34e43ca990049b0a97841bc333aa4fd1afa6cf9b51b6c46b2546dfdccfb8f16
+    digest: e6439259949f52114e6f09e9215e4b4c105d34cc34c024fe95818cb606453d12
     name: helm-chart-test
     type: application
     urls:
@@ -13,10 +13,28 @@ entries:
     version: 0.1.0
   tastia:
   - apiVersion: v2
-    appVersion: v0.0.1
-    created: "2022-03-08T18:44:12.821209242Z"
+    appVersion: v0.1
+    created: "2022-03-08T18:51:41.346152768Z"
     description: A Helm chart for the  tastia web
-    digest: f17e3e014d7877a58ba41a886f326f01fd9cbb5665c4fc7abfed76a2e1276fef
+    digest: acaeaaa9add9fa49dc837d106784d9902878ba62812ca41f728d08d8189d3b31
+    home: https://github.com/rasturies/tastia
+    icon: https://tastia.me/assets/favicon_transparante.png
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: rasturies@users.noreply.github.com
+      name: rasturies
+    name: tastia
+    sources:
+    - https://github.com/rasturies/tastia
+    type: application
+    urls:
+    - https://rasturies.github.io/helm-repo/tastia-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: v0.0.1
+    created: "2022-03-08T18:51:41.344087417Z"
+    description: A Helm chart for the  tastia web
+    digest: ca98b4acd7372a67ad6b9a05986228302d22a2594e13b78778bcae2e2fa2023d
     home: https://github.com/rasturies/tastia
     icon: https://tastia.me/assets/favicon_transparante.png
     kubeVersion: '>=1.19.0-0'
@@ -30,4 +48,4 @@ entries:
     urls:
     - https://rasturies.github.io/helm-repo/tastia-0.0.1.tgz
     version: 0.0.1
-generated: "2022-03-08T18:44:12.814197823Z"
+generated: "2022-03-08T18:51:41.337811607Z"
