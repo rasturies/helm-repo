@@ -74,7 +74,7 @@ readinessProbe:
 
 livenessProbe:
   initialDelaySeconds: 120
-  timeoutSeconds:
+  timeoutSeconds: 5
 
 autoscaling:
   enabled: false
