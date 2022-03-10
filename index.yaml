@@ -13,6 +13,24 @@ entries:
     version: 0.1.0
   tastia:
   - apiVersion: v2
+    appVersion: v0.2
+    created: "2022-03-10T10:21:28.9362618Z"
+    description: A Helm chart for the tastia service
+    digest: 9d9299794e688923be532b178cd96ccc5492f187a618f8a569af61d5ad55bdc0
+    home: https://github.com/rasturies/tastia
+    icon: https://tastia.me/assets/favicon_transparante.png
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: rasturies@users.noreply.github.com
+      name: rasturies
+    name: tastia
+    sources:
+    - https://github.com/rasturies/tastia
+    type: application
+    urls:
+    - https://github.com/rasturies/helm-repo/releases/download/tastia-0.2.48/tastia-0.2.48.tgz
+    version: 0.2.48
+  - apiVersion: v2
     appVersion: v0.1
     created: "2022-03-09T22:22:56.195618968Z"
     description: A Helm chart for the tastia service
@@ -282,4 +300,4 @@ entries:
     urls:
     - https://github.com/rasturies/helm-repo/releases/download/tastia-0.1.1/tastia-0.1.1.tgz
     version: 0.1.1
-generated: "2022-03-09T22:22:56.394259213Z"
+generated: "2022-03-10T10:21:29.114723096Z"
